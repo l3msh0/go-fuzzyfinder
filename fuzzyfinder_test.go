@@ -10,7 +10,7 @@ import (
 
 	"github.com/gdamore/tcell/termbox"
 	"github.com/google/go-cmp/cmp"
-	fuzzyfinder "github.com/ktr0731/go-fuzzyfinder"
+	fuzzyfinder "github.com/l3msh0/go-fuzzyfinder"
 )
 
 var (

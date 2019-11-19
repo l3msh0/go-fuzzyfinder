@@ -1,4 +1,4 @@
-module github.com/ktr0731/go-fuzzyfinder
+module github.com/l3msh0/go-fuzzyfinder
 
 require (
 	github.com/gdamore/tcell v1.2.0
@@ -6,3 +6,5 @@ require (
 	github.com/mattn/go-runewidth v0.0.4
 	github.com/pkg/errors v0.8.1
 )
+
+go 1.13

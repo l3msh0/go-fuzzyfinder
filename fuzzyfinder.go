@@ -15,7 +15,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/gdamore/tcell/termbox"
-	"github.com/ktr0731/go-fuzzyfinder/matching"
+	"github.com/l3msh0/go-fuzzyfinder/matching"
 	runewidth "github.com/mattn/go-runewidth"
 	"github.com/pkg/errors"
 )
