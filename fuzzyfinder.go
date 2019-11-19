@@ -346,11 +346,16 @@ func (f *finder) readKey() error {
 			f.state.input = newIn
 			f.state.cursorX = runewidth.StringWidth(string(newIn))
 			f.state.x = len(newIn)
+		case termbox.KeyCtrlK:
+			newIn := f.state.input[:f.state.x]
+			f.state.input = newIn
+			f.state.cursorX = runewidth.StringWidth(string(newIn))
+			f.state.x = len(newIn)
 		case termbox.KeyCtrlU:
 			f.state.input = f.state.input[f.state.x:]
 			f.state.cursorX = 0
 			f.state.x = 0
-		case termbox.KeyArrowUp, termbox.KeyCtrlK, termbox.KeyCtrlP:
+		case termbox.KeyArrowUp, termbox.KeyCtrlP:
 			f.stateMu.Lock()
 			defer f.stateMu.Unlock()
 
