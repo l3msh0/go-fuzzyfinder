@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	fuzzyfinder "github.com/ktr0731/go-fuzzyfinder"
+	fuzzyfinder "github.com/l3msh0/go-fuzzyfinder"
 )
 
 type Track struct {

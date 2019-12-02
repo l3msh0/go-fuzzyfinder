@@ -1,4 +1,4 @@
-module github.com/ktr0731/go-fuzzyfinder
+module github.com/l3msh0/go-fuzzyfinder
 
 require (
 	github.com/google/go-cmp v0.2.0
@@ -6,3 +6,5 @@ require (
 	github.com/nsf/termbox-go v0.0.0-20190121233118-02980233997d
 	github.com/pkg/errors v0.8.1
 )
+
+go 1.13
